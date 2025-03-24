@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function mudaconteudo(){
+            document.getElementById("demo").innerHTML = "Hello javascript!"
+            document.getElementById("imagem").src= "lampada_ligada.png"
+        }
+    </script>
+    <body>
+        <h2>What can javascript do?
+
+        </h2>
+        
+        <p id="demo">javascript can change HTML content</p>
+        <img src="lampada_desligada.png" alt="Lampada desligada" id="imagem">
+
+        <button type="button"
+        onclick='mudaconteudo()'>Click Me!</button>
+    </body>
+    <!--Precisa das imagens no diretório-->
+</html>
