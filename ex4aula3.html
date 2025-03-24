@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function mudaconteudo(){
+            var data = new Date("December 25, 1995 23:15:30");
+            var hours = data.getHours();
+            if(hours >= 4 && hours < 12){
+                document.getElementById("demo").innerHTML = "Bom dia"
+                console.log(hours)
+            }
+            else if(hours >= 12 && hours < 19){
+                document.getElementById("demo").innerHTML = "Boa tarde"
+                console.log(hours)
+            }
+            else if(hours >= 19 && hours < 4){
+                document.getElementById("demo").innerHTML = "Boa noite"
+                console.log(hours)
+            }
+        }
+    </script>
+    <body>
+        <p id="demo">Olá</p>
+
+        <button type="button"
+        onclick='mudaconteudo()'>Click Me!</button>
+    </body>
+</html>
