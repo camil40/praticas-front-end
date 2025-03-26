@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script>
+
+        let texto = '{"a":"a1","b":"b1","c":"c1"}'
+        let text = '{ "firstName":"John" , "lastName":"Doe","firstName":"Anna" , "lastName":"Smith", "firstName":"Peter" , "lastName":"Jones"}'
+        employees = JSON.parse(text)
+        cont = JSON.parse(texto)
+        for(c in cont){
+            console.log(c+": "+cont[c])
+        }
+        for(e in employees){
+            console.log(e+": "+employees[e])
+        }
+    </script>
+    <body>
+        <h2>Javascript</h2>
+    </body>
+</html>
