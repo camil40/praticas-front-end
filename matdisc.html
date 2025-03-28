@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>Propriedades</head>
+    <script>
+        var rel = [];
+        var n=3, i=0, j=0;;
+        function relacao(rel, n){
+            
+            var vet = [];
+            for(i=0; i<n; i++){
+                for(j=0;j<2;j++){
+                    vet[j] = parseInt(prompt("número"));
+                }
+                rel[i] = [vet[0], vet[1]];
+            }
+            relacao(rel, n);
+            console.log([rel]);
+        }
+        function reflexividade(rel, n){
+            var num1=0, num2=0;
+            for(i=0; i < n; i++){
+                if(rel[i][0] != rel[i][1]){
+                    num1 = rel[i][0];
+                }
+            }
+        }
+        function simetria(){
+
+        }
+        function transitividade(){
+
+        }
+    </script>
+    <body>
+
+    </body>
+</html>
