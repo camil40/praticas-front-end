@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        const pessoas = ['p1', 'p2', 'p3']
+        const listapessoas = pessoas.map(x => `<li>${x}</li>`)
+        console.log(listapessoas)
+    </script>
+    <!--tem que usar crase nessa parte `<li>${x}</li>`, '' não funciona-->
+    <body>
+        <header>Variáveis</header>
+        <ul>
+            <script>
+                document.write(listapessoas.join(" "))
+            </script>
+        </ul>
+    </body>
+</html>
