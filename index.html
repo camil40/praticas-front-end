@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>AAAA</h1>
+        <script>
+            fetch("http://localhost:3000/pets")
+            .then(response => response.json())
+            .then(dados => {
+                console.log(dados)
+                pets = dados.map(pet => `<li>${pet.nome} - ${pet.especie}</li>`).join(" ")
+                document.write(pets)
+            })
+        </script>
+        <form onsubmit="enviaDados(this)">
+            Nome: <input type="text" name="nome"></br>
+            Especie: <input type="text" name="especie"></br>
+            Raca: <input type="text" name="raca"></br>
+            Idade: <input type="text" name="idade"></br>
+            <input type="submit" value="Enviar"></br>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "pets": [
+    {
+      "id": "fff",
+      "especie": "gato",
+      "raca": "persa",
+      "nome": "felino",
+      "idade": 1
+    },
+    {
+      "id": "ff",
+      "especie": "cão",
+      "raca": "srd",
+      "nome": "canino",
+      "idade": 1
+    },
+    {
+      "id": "f",
+      "especie": "cão",
+      "raca": "srd",
+      "nome": "julio",
+      "idade": 3
+    },
+    {
+      "id": "ffff",
+      "especie": "tartaruga",
+      "raca": "-",
+      "nome": "diana",
+      "idade": 68
+    }
+  ]
+}
